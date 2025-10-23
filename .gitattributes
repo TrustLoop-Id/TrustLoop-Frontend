@@ -1,0 +1,194 @@
+# ArisanLink - Git Attributes Configuration
+# © 2025 - Designed & Created by Daniel Sukamto
+
+# ===========================================
+# Text Files
+# ===========================================
+# Ensure all text files use LF line endings
+* text=auto eol=lf
+
+# ===========================================
+# Source Code Files
+# ===========================================
+# JavaScript/TypeScript
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# CSS/SCSS
+*.css text eol=lf
+*.scss text eol=lf
+*.sass text eol=lf
+*.less text eol=lf
+
+# HTML/XML
+*.html text eol=lf
+*.htm text eol=lf
+*.xml text eol=lf
+*.svg text eol=lf
+
+# Markdown
+*.md text eol=lf
+*.markdown text eol=lf
+
+# YAML/YML
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Configuration files
+*.config.js text eol=lf
+*.config.ts text eol=lf
+*.config.json text eol=lf
+*.config.yml text eol=lf
+*.config.yaml text eol=lf
+
+# ===========================================
+# Smart Contracts
+# ===========================================
+# Solidity
+*.sol text eol=lf
+
+# Hardhat
+hardhat.config.js text eol=lf
+hardhat.config.ts text eol=lf
+
+# ===========================================
+# Documentation
+# ===========================================
+# Markdown files
+*.md text eol=lf
+*.markdown text eol=lf
+
+# Documentation
+docs/**/*.md text eol=lf
+docs/**/*.txt text eol=lf
+
+# ===========================================
+# Binary Files
+# ===========================================
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.svg binary
+*.bmp binary
+*.tiff binary
+*.tif binary
+
+# Fonts
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.otf binary
+
+# Archives
+*.zip binary
+*.tar.gz binary
+*.rar binary
+*.7z binary
+
+# Executables
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# ===========================================
+# Large Files
+# ===========================================
+# Node modules (should be in .gitignore but just in case)
+node_modules/ -text
+**/node_modules/ -text
+
+# Build outputs
+build/ -text
+dist/ -text
+out/ -text
+.next/ -text
+
+# Cache directories
+cache/ -text
+.cache/ -text
+.parcel-cache/ -text
+
+# ===========================================
+# Language Specific
+# ===========================================
+# Python
+*.py text eol=lf
+*.pyc binary
+*.pyo binary
+*.pyd binary
+
+# Go
+*.go text eol=lf
+
+# Rust
+*.rs text eol=lf
+Cargo.lock text eol=lf
+
+# Java
+*.java text eol=lf
+*.class binary
+*.jar binary
+
+# C/C++
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+
+# ===========================================
+# IDE Files
+# ===========================================
+# VSCode
+.vscode/settings.json text eol=lf
+.vscode/tasks.json text eol=lf
+.vscode/launch.json text eol=lf
+.vscode/extensions.json text eol=lf
+
+# ===========================================
+# Package Manager Files
+# ===========================================
+# Package files
+package.json text eol=lf
+package-lock.json text eol=lf
+yarn.lock text eol=lf
+pnpm-lock.yaml text eol=lf
+
+# ===========================================
+# Environment Files
+# ===========================================
+# Environment examples (keep these)
+*.env.example text eol=lf
+env.example text eol=lf
+
+# ===========================================
+# Git Files
+# ===========================================
+# Git configuration
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.gitmodules text eol=lf
+
+# ===========================================
+# License and Legal
+# ===========================================
+# License files
+LICENSE text eol=lf
+LICENSE.txt text eol=lf
+LICENSE.md text eol=lf
+
+# ===========================================
+# End of .gitattributes
+# ===========================================
