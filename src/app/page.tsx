@@ -289,7 +289,7 @@ export default function HomePage() {
                 © 2025 TrustLoop
               </p>
               <p className="text-sm text-gray-500 text-center">
-              Designed & Created by Daniel Sukamto&nbsp;&nbsp;|&nbsp;&nbsp;Vermont William
+              Designed & Created by BasedBoredClub
               </p>
             </div>
           </div>
